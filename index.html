@@ -307,20 +307,21 @@
                   placeholder="Height/cm"
                   id=""
                 />
-                <input
-                  type="text"
-                  name=""
-                  class="input-cmn"
-                  placeholder="Sex"
-                  id=""
-                />
-                <input
-                  type="text"
-                  name=""
-                  class="input-cmn"
-                  placeholder="Select an activity factor"
-                  id=""
-                />
+
+                <div class="dropdown-container">
+                  <select class="dropdown">
+                    <option value="sex">Sex</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+              </div>
+              <div class="dropdown-container dropdown-2">
+                <select class="dropdown">
+                  <option value="activity">Select an activity factor</option>
+                  <option value="yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
               </div>
               <button class="cmn-btn">Calculate</button>
             </div>

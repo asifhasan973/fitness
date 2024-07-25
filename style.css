@@ -448,12 +448,15 @@ bmi
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 }
+.input-feild input {
+  border-radius: 5px;
+}
 .input-cmn {
   border-style: none;
 
   padding: 10px 20px;
   background: rgba(255, 255, 255, 0.1);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 1.1rem;
 }
 .calculator button {
@@ -478,7 +481,48 @@ bmi
   color: white;
 }
 
-/* meet-team */
+.dropdown {
+  width: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.341);
+  border: none;
+  border-radius: 8px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: 16px;
+}
+
+.dropdown option {
+  background-color: #333;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.dropdown:focus {
+  outline: none;
+  border: 1px solid #666;
+}
+.dropdown-container {
+  position: relative;
+}
+.dropdown-container:after {
+  content: '\f107';
+  font-family: 'FontAwesome';
+  font-size: 16px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ccc;
+  z-index: 0;
+}
+.dropdown-2 {
+  margin-top: 15px;
+}
+/*
+meet-team 
+*/
 .meet-team-imgs {
   margin-top: 60px;
   display: grid;
@@ -726,7 +770,7 @@ hr {
   }
   .bmi-calculator {
     grid-template-columns: 1fr;
-    padding: 15px;
+    padding: 50px 15px;
   }
   .input-cmn {
     font-size: 0.9rem;
