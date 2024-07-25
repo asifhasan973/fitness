@@ -165,7 +165,7 @@ nav ul li a {
   width: 40px;
   border-radius: 50%;
 }
-.fa-play-css {
+.fa-play {
   display: none;
 }
 
@@ -428,6 +428,9 @@ pricing
 /*-----
 bmi 
 -----*/
+.bmi-section {
+  margin-top: 150px;
+}
 .bmi-calculator-container {
   background: rgb(34, 34, 34);
   margin-top: 80px;
@@ -526,6 +529,9 @@ bmi
 /*
 meet-team 
 */
+.meet-team {
+  margin-top: 150px;
+}
 .meet-team-imgs {
   margin-top: 60px;
   display: grid;
@@ -679,8 +685,10 @@ hr {
     align-items: center;
   }
   .fa-play-css {
-    display: block;
     font-size: 1.4rem;
+  }
+  .fa-play {
+    display: block;
   }
 
   /* nav finish  */
