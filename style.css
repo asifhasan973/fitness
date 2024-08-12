@@ -164,6 +164,9 @@ nav ul li a {
   height: 40px;
   width: 40px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .fa-play {
   display: none;
@@ -679,11 +682,7 @@ hr {
     display: block;
     font-size: 1.8rem;
   }
-  .round {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
   .fa-play-css {
     font-size: 1.4rem;
   }
